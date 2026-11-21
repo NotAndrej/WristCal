@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  WristCal launcher glyph, hand-authored as a vector: a calendar card with two
+  binder rings, a header bar, a 3x2 grid of days and one highlighted day.
+  Drawn inside the adaptive-icon safe zone (content spans 24..80 of 108).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- binder rings -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,24 h5 a1,1 0 0 1 1,1 v11 a1,1 0 0 1 -1,1 h-5 a1,1 0 0 1 -1,-1 v-11 a1,1 0 0 1 1,-1 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,24 h5 a1,1 0 0 1 1,1 v11 a1,1 0 0 1 -1,1 h-5 a1,1 0 0 1 -1,-1 v-11 a1,1 0 0 1 1,-1 z" />
+
+    <!-- card -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,28 h36 a9,9 0 0 1 9,9 v33 a9,9 0 0 1 -9,9 h-36 a9,9 0 0 1 -9,-9 v-33 a9,9 0 0 1 9,-9 z" />
+
+    <!-- header bar -->
+    <path
+        android:fillColor="#0B1B2B"
+        android:pathData="M27,42 h54 v9 h-54 z" />
+
+    <!-- days: two rows of three -->
+    <path
+        android:fillColor="#0B1B2B"
+        android:pathData="M39,61 m-3.2,0 a3.2,3.2 0 1 0 6.4,0 a3.2,3.2 0 1 0 -6.4,0" />
+    <path
+        android:fillColor="#0B1B2B"
+        android:pathData="M54,61 m-3.2,0 a3.2,3.2 0 1 0 6.4,0 a3.2,3.2 0 1 0 -6.4,0" />
+    <path
+        android:fillColor="#0B1B2B"
+        android:pathData="M69,61 m-3.2,0 a3.2,3.2 0 1 0 6.4,0 a3.2,3.2 0 1 0 -6.4,0" />
+    <path
+        android:fillColor="#0B1B2B"
+        android:pathData="M39,73 m-3.2,0 a3.2,3.2 0 1 0 6.4,0 a3.2,3.2 0 1 0 -6.4,0" />
+    <path
+        android:fillColor="#0B1B2B"
+        android:pathData="M69,73 m-3.2,0 a3.2,3.2 0 1 0 6.4,0 a3.2,3.2 0 1 0 -6.4,0" />
+
+    <!-- highlighted day -->
+    <path
+        android:fillColor="#FF5A5F"
+        android:pathData="M54,73 m-3.2,0 a3.2,3.2 0 1 0 6.4,0 a3.2,3.2 0 1 0 -6.4,0" />
+</vector>
